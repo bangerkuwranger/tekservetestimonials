@@ -20,7 +20,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 add_action( 'init', 'create_post_type_testimonial' );
-function create_post_type_press() {
+function create_post_type_testimonial() {
 	register_post_type( 'tekserve_testimonial',
 		array(
 			'labels' => array(
@@ -47,7 +47,7 @@ function create_post_type_press() {
 
 add_action( 'admin_init', 'testimonial_custom_fields' );
 
-function press_custom_fields() {
+function testimonial_custom_fields() {
     add_meta_box( 'tekserve_testimonial_meta_box',
         'Testimonial Details',
         'display_tekserve_testimonial_meta_box',
@@ -76,7 +76,7 @@ function display_tekserve_testimonial_meta_box( $tekserve_testimonial ) {
 add_action( 'save_post', 'add_tekserve_testimonial_fields', 10, 2 );
 
 function add_tekserve_testimonial_fields( $tekserve_testimonial_id, $tekserve_testimonial ) {
-    // Check post type for 'tekserve_press'
+    // Check post type for 'tekserve_testimonial'
     if ( $tekserve_testimonial->post_type == 'tekserve_testimonial' ) {
         // Store data in post meta table if present in post data
         if ( isset( $_POST['tekserve_testimonial_name'] ) && $_POST['tekserve_testimonial_name'] != '' ) {
