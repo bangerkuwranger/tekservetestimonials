@@ -1,23 +1,11 @@
-Tekserve Testimonials
-====================
-
-Wordpress plugin to create a custom post type for Press Mentions. Includes custom fields for the source's name and company.
-
-
+=== Tekserve Testimonials ===
 Contributors: bangerkuwranger
-
 Donate link: http://www.chadacarino.com/burnallmoney.html
-
 Tags: custom post type, custom fields, testimonials, quotes
-
 Requires at least: 3.1
-
 Tested up to: 3.7.1
-
 Stable tag: 1.0
-
 License: MIT
-
 License URI: http://www.chadacarino.com/license-mit.html
 
 Wordpress plugin to create a custom post type for Testimonials. Includes custom fields for name and organization of the quote source.
