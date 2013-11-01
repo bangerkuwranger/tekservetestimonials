@@ -40,7 +40,7 @@ function create_post_type_testimonial() {
 			),
 			'public' => true,
 			'has_archive' => false,
-            'supports' => array( 'title', 'editor', ),
+            'supports' => array( 'editor', ),
 		)
 	);
 }
