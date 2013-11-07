@@ -1,0 +1,13 @@
+.tekserve-testimonial {
+	display: inline-block;
+}
+
+.tekserve-testimonial .tekserve-testimonial-quote p {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.tekserve-testimonial .tekserve-testimonial-source {
+	text-align: right;
+}
