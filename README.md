@@ -56,9 +56,6 @@ Or assign a Testimonial Type to a set of quotes and display them in an unordered
 
 Actually, there is a title, you just don't choose it yourself. This plugin automatically assigns your testimonial a title that shows you the quote, source, and id (for the shortcode).
 
-== Screenshots ==
-
-1. This is pretty much it. Woo.
 
 == Changelog ==
 

@@ -46,7 +46,9 @@ Actually, there is a title, you just don't choose it yourself. This plugin autom
 
 == Screenshots ==
 
-1. This is pretty much it. Woo.
+1. New testimonial. Drop the quote in the content box (html is ok), add a name / organization, and a type if you so desire.
+
+2. View your testimonials and sort by type or date.
 
 == Changelog ==
 
