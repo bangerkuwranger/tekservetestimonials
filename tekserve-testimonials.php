@@ -189,7 +189,7 @@ function tekserve_testimonial_shortcode( $atts ) {
                 $out .= '<li>
 							<div class="tekserve-testimonial">
 								<div class="tekserve-testimonial-quote">
-									&quot;' . apply_filters( 'the_content', get_the_content() ) . '&quot;
+									&#8220;' . apply_filters( 'the_content', get_the_content() ) . '&#8221;
 								</div>
 								<div class="tekserve-testimonial-source">
 									&#8212;<span class="tekserve-testimonial-name">' . $name . '</span><span class="tekserve-testimonial-organization">' . $organization . '</span>
@@ -219,7 +219,7 @@ function tekserve_testimonial_shortcode( $atts ) {
                 //output single div with testimonial
                 $out = '<div class="tekserve-testimonial">
 								<div class="tekserve-testimonial-quote">
-									&quot;' . apply_filters( 'the_content', get_the_content() ) . '&quot;
+									&#8220;' . apply_filters( 'the_content', get_the_content() ) . '&#8221;
 								</div>
 								<div class="tekserve-testimonial-source">
 									&#8212;<span class="tekserve-testimonial-name">' . $name . '</span><span class="tekserve-testimonial-organization">' . $organization . '</span>
