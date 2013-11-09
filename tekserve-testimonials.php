@@ -232,7 +232,7 @@ add_shortcode( 'tekserve-testimonial', 'tekserve_testimonial_shortcode' );
 
 //include css to format quote(s) on single page
 function include_tekserve_testimonials_style() {
-	wp_enqueue_style ( 'tekserve_testimonials', plugins_url().'/tekservetestimonials/tekserve_testimonials.css' );
+	wp_enqueue_style ( 'tekserve_testimonials', plugins_url().'/tekserve-testimonials/tekserve_testimonials.css' );
 }
 
 add_action( 'wp_enqueue_scripts', 'include_tekserve_testimonials_style' );
