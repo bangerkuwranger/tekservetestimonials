@@ -3,14 +3,14 @@
  * Plugin Name: Tekserve Testimonials
  * Plugin URI: https://github.com/bangerkuwranger
  * Description: Custom Post Type for Testimonial Quotes; Includes Custom Fields & Genesis Shortcode
- * Version: 1.0
+ * Version: 1.1
  * Author: Chad A. Carino
  * Author URI: http://www.chadacarino.com
  * License: MIT
  */
 /*
 The MIT License (MIT)
-Copyright (c) 2013 Chad A. Carino
+Copyright (c) 2015 Chad A. Carino
  
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  
