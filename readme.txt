@@ -4,7 +4,7 @@ Donate link: http://www.chadacarino.com/burnallmoney.html
 Tags: custom post type, custom fields, testimonials, quotes
 Requires at least: 3.1
 Tested up to: 4.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: MIT
 License URI: http://www.chadacarino.com/license-mit.html
 
@@ -51,6 +51,14 @@ Actually, there is a title, you just don't choose it yourself. This plugin autom
 2. View your testimonials and sort by type or date.
 
 == Changelog ==
+
+= 1.2 =
+* minify support files and load only on instantiation
+* standardized enqueue methods and syntax
+
+= 1.1 =
+* compatibility w/ WP4.1
+* bugs, dead
 
 = 1.0 =
 * added custom taxonomy for testimonial type to allow for sorting and displaying sets of quotes
