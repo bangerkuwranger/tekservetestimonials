@@ -26,7 +26,7 @@ $tekserve_testimonial_queue = array();
 function tekserve_testimonial_enqueue() {
 
 	global $tekserve_testimonial_queue;
-	$tekserve_testimonial_queue['tekserve_testimonials_css'] = 'css';
+
 	foreach( $tekserve_testimonial_queue as $item => $type ) {
 	
 		if( $type == 'css' ) {
